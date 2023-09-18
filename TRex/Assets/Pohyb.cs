@@ -47,7 +47,7 @@ public class Pohyb : MonoBehaviour
         //kamera.transform.position = transform.position;
         //kamera.transform.rotation = transform.rotation;
 
-        kamera.transform.position += transform.up;
-        kamera.transform.position -= 3*transform.forward;
+        //kamera.transform.position += transform.up;
+        //kamera.transform.position -= 3*transform.forward;
     }
 }
