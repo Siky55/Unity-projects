@@ -13,6 +13,7 @@ public class MenuManager : MonoBehaviour
 
     public void EXIT()
     {
+        Debug.Log("QUIT");
         Application.Quit();
     }
 

@@ -1,17 +1,21 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuButton : MonoBehaviour
+public class LoadMenuAndCenterMouse : MonoBehaviour
 {
-    // Název cílové scény (menu)
-    public string menuSceneName = "Menu";
+    public string menuSceneName = "MenuScene"; // Název scény "Menu"
 
-    // Metoda pro obsluhu stisku tlaèítka ESC
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        // Pokud bylo stisknuto tlaèítko ESC/X
+        if (Input.GetKeyDown(KeyCode.X)||Input.GetKeyDown(KeyCode.X))
         {
-           SceneManager.LoadScene(menuSceneName);
+            // Naète scénu "Menu"
+            SceneManager.LoadScene(menuSceneName);
+
+            // Nastaví kurzor myši do støedu obrazovky
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 }

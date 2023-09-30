@@ -483,7 +483,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EXIT
+  m_Text: KONEC
 --- !u!222 &155958259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &260672579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -530,7 +530,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 2}
-  m_SizeDelta: {x: 0, y: 150}
+  m_SizeDelta: {x: 0, y: 236.2}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &260672580
 MonoBehaviour:
@@ -725,7 +725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00001812, y: -70}
+  m_AnchoredPosition: {x: -49, y: -121}
   m_SizeDelta: {x: 214.0173, y: 49.997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &473103257
@@ -775,7 +775,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 137825}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Fullscreen
         m_Mode: 0
@@ -858,7 +858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Low
+  m_Text: "N\xEDzk\xE1 \xFArove\u0148 grafiky"
 --- !u!222 &493554727
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1102,7 +1102,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 28}
+  m_SizeDelta: {x: 0, y: 75}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &641754924
 GameObject:
@@ -1329,7 +1329,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 137825}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: EXIT
         m_Mode: 1
@@ -1469,16 +1469,16 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Low
+    - m_Text: "N\xEDzk\xE1 \xFArove\u0148 grafiky"
       m_Image: {fileID: 0}
-    - m_Text: Medium
+    - m_Text: "St\u0159edn\xED \xFArove\u0148 grafiky"
       m_Image: {fileID: 0}
-    - m_Text: High
+    - m_Text: "Vysok\xE1 \xFArove\u0148 grafiky"
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 137825}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Quality
         m_Mode: 0
@@ -1562,7 +1562,7 @@ RectTransform:
   m_Father: {fileID: 690702436}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0.68247247}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1638,8 +1638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 49.95243, y: 0.0000019073486}
-  m_SizeDelta: {x: 8.5826, y: -3}
+  m_AnchoredPosition: {x: 61, y: 0.0000019073486}
+  m_SizeDelta: {x: 29.133722, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921903045
 MonoBehaviour:
@@ -1674,9 +1674,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Fullscreen
-
-'
+  m_Text: "Cel\xE1 obrazovka\n"
 --- !u!222 &921903046
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2176,7 +2174,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SETTINGS
+  m_Text: "NASTAVEN\xCD"
 --- !u!222 &1142850970
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2268,7 +2266,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 840032982}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.68247247
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2460,7 +2458,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACK
+  m_Text: "ZP\u011AT"
 --- !u!222 &1541505603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2578,7 +2576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: 404.32013}
+  m_AnchoredPosition: {x: -0.000011444, y: 323}
   m_SizeDelta: {x: 623.991, y: 275.876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777731541
@@ -2603,7 +2601,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 109
+    m_FontSize: 88
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2614,7 +2612,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game
+  m_Text: "HOUBA\u0158"
 --- !u!222 &1777731542
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2657,7 +2655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 409}
+  m_AnchoredPosition: {x: 0, y: 323}
   m_SizeDelta: {x: 520.2013, y: 232.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856682491
@@ -2693,7 +2691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SETTINGS
+  m_Text: "NASTAVEN\xCD"
 --- !u!222 &1856682492
 CanvasRenderer:
   m_ObjectHideFlags: 0

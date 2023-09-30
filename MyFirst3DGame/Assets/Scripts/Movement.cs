@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
@@ -19,6 +20,9 @@ public class Movement : MonoBehaviour
     private CharacterController characterController;
 
     private bool canMove = true;
+
+    public string menuSceneName = "Menu"; // Název scény "Menu"
+
 
     void Start()
     {
@@ -72,5 +76,19 @@ public class Movement : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+
+
+        // Pokud bylo stisknuto tlaèítko ESC/X
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.X))
+        {
+            // Naète scénu "Menu"
+            SceneManager.LoadScene(menuSceneName);
+
+            // Nastaví kurzor myši do støedu obrazovky
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+
     }
 }

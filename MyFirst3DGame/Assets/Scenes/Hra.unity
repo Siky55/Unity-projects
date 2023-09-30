@@ -2299,7 +2299,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.12
+  m_Intensity: 0.66
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2308,7 +2308,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.354
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -3931,6 +3931,7 @@ MonoBehaviour:
   lookSpeed: 2
   lookXLimit: 45
   sneakingSpeed: 2
+  menuSceneName: Menu
 --- !u!143 &1107056837
 CharacterController:
   m_ObjectHideFlags: 0
@@ -4007,7 +4008,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107056835}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5350d60ec2e68e5419d8053bc88de5e4, type: 3}
   m_Name: 
