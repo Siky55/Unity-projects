@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Flashlight : MonoBehaviour
 {
-    Light light;
+    Light lamp;
     
     void Start()
     {
 
-        light = GetComponent<Light>();
+        lamp = GetComponent<Light>();
     }
 
     
@@ -17,7 +17,7 @@ public class Flashlight : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.F))
         {
-            light.enabled = !light.enabled;
+            lamp.enabled = !lamp.enabled;
         }
     } 
       
